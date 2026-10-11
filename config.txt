@@ -1,0 +1,29 @@
+# SoundCloud Presence - settings
+# CLIENT_ID is the only one you have to fill in: free app at
+# discord.com/developers/applications -> "New Application" -> copy the
+# Application ID here. Or just use Settings in the app, same thing.
+CLIENT_ID=
+
+# ignore sources that aren't a browser
+BROWSER_ONLY=false
+
+# skip cover uploads
+NO_COVER=false
+
+# remove the activity while paused instead of showing "Paused - ..."
+HIDE_WHEN_PAUSED=false
+
+# 2 = Listening, 0 = Playing, 3 = Watching
+ACTIVITY_TYPE=2
+
+# fallback poll interval; track changes are event driven anyway
+POLL_SECONDS=2
+
+# optional image asset from the Discord Developer Portal
+ASSET_KEY=
+
+# max cover size in px
+COVER_MAX_SIZE=256
+
+# extra logging
+VERBOSE=false

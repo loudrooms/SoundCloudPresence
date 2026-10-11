@@ -1,0 +1,11 @@
+# build output - the exe is distributed via GitHub Releases, not git
+dist/
+*.exe
+*.zip
+
+# editor / misc
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
+*.log
